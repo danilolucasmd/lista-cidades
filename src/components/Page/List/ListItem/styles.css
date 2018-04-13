@@ -1,0 +1,8 @@
+:local(.component) td:nth-child(1) {
+  width: 150px; }
+
+:local(.component) td:nth-child(2) {
+  width: 300px; }
+
+:local(.component) td:nth-child(3) {
+  width: 150px; }

@@ -1,0 +1,1 @@
+export const api = 'http://wsteste.devedp.com.br/Master/CidadeServico.svc/rest';

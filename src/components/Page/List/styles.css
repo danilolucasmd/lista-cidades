@@ -1,0 +1,11 @@
+:local(.component) table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse; }
+
+:local(.component) td, :local(.component) th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px; }
+
+:local(.component) tr:nth-child(odd) {
+  background-color: #dddddd; }
