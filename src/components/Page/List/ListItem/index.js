@@ -23,7 +23,6 @@ const ListItem = ({ data, fetchCityPoints }) => (
 
 ListItem.propTypes = {
   data: PropTypes.object.isRequired,
-  fetchCityPoints: PropTypes.function,
 };
 
 export default connect(undefined, { fetchCityPoints })(ListItem);

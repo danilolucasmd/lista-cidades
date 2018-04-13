@@ -85,7 +85,6 @@ class List extends Component {
 
 List.propTypes = {
   data: PropTypes.array.isRequired,
-  fetchCities: PropTypes.func,
 };
 
 const mapStateToProps = state => ({
