@@ -5,7 +5,7 @@
 Caso não tenha o yarn instalado:
 
 ```bash
-$ npm install yarn
+$ npm install -g yarn
 ```
 
 Instalando dependências:
