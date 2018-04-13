@@ -19,13 +19,7 @@ export const fetchCities = () =>
 export const fetchCityPoints = city =>
   async dispatch => {
     try {
-      const response = await post({
-        url: '/BuscaPontos',
-        data: city,
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
-        },
-      });
+      const response = await post({ url: '/BuscaPontos', data: city });
 
       alert(`A pontuação da Cidade ${city.Nome} é ${response.data}`);
     } catch (error) {
