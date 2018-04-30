@@ -1,1 +1,1 @@
-export const api = 'http://wsteste.devedp.com.br/Master/CidadeServico.svc/rest';
+export const api = 'http://nutror-mock-server.herokuapp.com';
