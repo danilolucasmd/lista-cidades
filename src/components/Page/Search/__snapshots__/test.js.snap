@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className={undefined}
+  onSubmit={[Function]}
+>
+  <label>
+    Cidade:
+  </label>
+  <input
+    id="city"
+    name="city"
+    onChange={[Function]}
+    value=""
+  />
+  <label>
+    Estado:
+  </label>
+  <input
+    id="state"
+    name="state"
+    onChange={[Function]}
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Buscar
+  </button>
+</form>
+`;

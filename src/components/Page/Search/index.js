@@ -32,6 +32,7 @@ class Search extends Component {
       <form className={styles.component} onSubmit={this.handleSubmit}>
         <label>Cidade:</label>
         <input
+          id='city'
           name='city'
           value={this.state.city}
           onChange={this.handleChange}
@@ -39,6 +40,7 @@ class Search extends Component {
 
         <label>Estado:</label>
         <input
+          id='state'
           name='state'
           value={this.state.state}
           onChange={this.handleChange}
