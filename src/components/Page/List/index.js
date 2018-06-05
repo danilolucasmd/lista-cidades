@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { fetchCities } from 'actionCreators/cities';
-import { getVisibleCities } from 'reducers';
 import ListItem from './ListItem';
 import ListControls from './ListControls';
 
@@ -88,7 +87,7 @@ List.propTypes = {
 };
 
 const mapStateToProps = state => ({
-  data: state.filters.city || state.filters.state ? getVisibleCities(state.cities, state.filters) : state.cities,
+  data: state.cities,
 });
 
 export default connect(mapStateToProps, { fetchCities })(List);

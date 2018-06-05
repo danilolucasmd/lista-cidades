@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { PropTypes } from 'prop-types';
-import { connect } from 'react-redux';
-import { changeFilters } from 'actionCreators/filters';
 
 import styles from './styles.css';
 
@@ -18,7 +15,6 @@ class Search extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    this.props.changeFilters(this.state);
   }
 
   handleChange = e => {
@@ -52,8 +48,4 @@ class Search extends Component {
   }
 }
 
-Search.propTypes = {
-  changeFilters: PropTypes.func,
-};
-
-export default connect(undefined, { changeFilters })(Search);
+export default Search;

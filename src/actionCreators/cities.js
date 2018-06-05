@@ -1,7 +1,4 @@
-import {
-  get,
-  post
-} from 'agent';
+import { get, post } from 'agent';
 
 export const receiveCities = cities => ({
   type: 'RECEIVE_CITIES',
